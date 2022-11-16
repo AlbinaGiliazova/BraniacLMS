@@ -3,11 +3,6 @@ from datetime import datetime
 from django.views.generic import TemplateView
 
 
-from datetime import datetime
-
-from django.views.generic import TemplateView
-
-
 class MainPageView(TemplateView):
     template_name = "mainapp/index.html"
 
