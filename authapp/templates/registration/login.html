@@ -60,7 +60,8 @@
             <p>
             <div class="btn-group btn-block" role="group">
                 <a class="btn btn-primary" href="#" role="button"><i class="fab fa-vk"></i></a>
-                <a class="btn btn-primary" href="#" role="button"><i class="fab fa-github"></i></a>
+                <a class="btn btn-primary" href="{% url 'social:begin' 'github' %}" role="button"><i
+                        class="fab fa-github"></i></a>
                 <a class="btn btn-primary" href="#" role="button"><i class="fab fa-facebook"></i></a>
             </div>
             </p>
@@ -91,31 +92,6 @@
 
         });
     </script>
-
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-    <!-- JavaScript section -->
-    <!-- Bootstrap -->
-    <script src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
-    <script src="{% static 'js/popper.min.js' %}"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-
-    <!-- ChartJs -->
-    <script src="{% static 'js/Chart.min.js' %}"></script>
-
-    <!-- FontAwesome -->
-    <script src="{% static 'js/fontawesome.all.min.js' %}"></script>
-
-
 
 </body>
 
